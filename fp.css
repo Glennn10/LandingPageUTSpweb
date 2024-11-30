@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif; /* Font yang bersih dan sederhana */
+    line-height: 1.6; /* Jarak antar baris */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-color: #f0f8ff; /* Warna latar belakang cerah */
+}
+
+/* Styling untuk header */
+.header {
+    background:  #9f8f8d; /* Warna latar belakang cerah untuk header */
+    color: white; /* Warna teks header */
+    padding: 20px 0; /* Ruang di dalam header */
+    text-align: center; /* Rata tengah untuk teks */
+}
+
+/* Styling untuk navigasi */
+.nav-links {
+    list-style: none; /* Menghilangkan bullet list */
+    padding: 0; /* Menghilangkan padding */
+}
+
+.nav-links li {
+    display: inline; /* Menampilkan item navigasi secara horizontal */
+    margin: 0 15px; /* Jarak antar item navigasi */
+}
+
+.nav-links a {
+    color: white; /* Warna tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+/* Styling untuk bagian tentang */
+.about, .contact {
+    background: white; /* Latar belakang putih untuk bagian konten */
+    margin: 20px auto; /* Margin atas dan bawah */
+    padding: 20px; /* Ruang di dalam bagian */
+    border-radius: 10px; /* Sudut membulat */
+    max-width: 600px; /* Lebar maksimum */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan halus */
+}
+
+/* Styling untuk gambar profil */
+.profile-image {
+    width: 100%; /* Lebar gambar mengikuti lebar konten */
+    max-width: 200px; /* Lebar maksimum gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    display: block; /* Menampilkan gambar sebagai blok */
+    margin: 20px auto; /* Margin atas dan bawah */
+}
+
+/* Styling untuk judul di bagian */
+h2 {
+    color: #333; /* Warna teks judul */
+}
+
+/* Styling untuk tautan di bagian kontak */
+.contact a {
+    color: (0, 56%, 98%); /* Warna untuk tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.contact a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Styling untuk footer */
+.footer {
+    text-align: center; /* Rata tengah untuk teks footer */
+    padding: 10px 0; /* Ruang di dalam footer */
+    background: hsl(0, 56%, 98%); /* Warna latar belakang footer */
+    color: white; /* Warna teks footer */
+}
